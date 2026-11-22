@@ -82,7 +82,7 @@ Actions=open-logs;
 
 [Desktop Action open-logs]
 Name=Open Logs
-Exec=sh -c "less ~/.local/state/my-app.log"
+Exec="/home/user/My Apps/my-app.AppImage" --new-window"
 ```
 
 ---
