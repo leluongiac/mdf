@@ -78,10 +78,10 @@ Exec="/home/user/My Apps/my-app.AppImage"
 Terminal=false
 Categories=Utility;
 StartupWMClass=my-app
-Actions=open-logs;
+Actions=new-win;
 
-[Desktop Action open-logs]
-Name=Open Logs
+[Desktop Action new-win]
+Name=New Window
 Exec="/home/user/My Apps/my-app.AppImage" --new-window"
 ```
 
